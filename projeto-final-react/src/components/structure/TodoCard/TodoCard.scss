@@ -1,0 +1,31 @@
+
+
+.card {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.28);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.28);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.28);
+  margin: 15px 5px;
+  padding-bottom: 10px;
+  background-color: grey;
+  text-decoration: none;
+  font-size: 20px;
+  &-text {
+    font-size: 25px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+  }
+  &-info {
+    text-align: center;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+
+  }
+}
